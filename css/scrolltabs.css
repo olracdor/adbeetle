@@ -1,0 +1,104 @@
+
+@media(min-width:767px) {
+	
+
+
+
+
+}
+
+div.scroll_tab_inner img {
+        
+          
+          position: absolute;
+          top: -14px;
+          left: -8px;
+        }
+.scroll_tabs_container{
+  background-color: transparent;
+}
+.scroll_tabs_container, .scroll_tab_inner {
+
+  padding-bottom: 10px;
+}
+
+.scroll_tabs_container div.scroll_tab_inner span, .scroll_tabs_container div.scroll_tab_inner li {
+ 
+  
+  font-size: 14px;
+  background-color: transparent;
+  
+  cursor: pointer;
+}
+
+.scroll_tab_left_button::before {
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 20px 20px 20px 0;
+border-color: transparent #d9d9d9;
+display: block;
+width: 0;
+z-index: 1;
+right: 2px;
+top: 7px;
+background-color: transparent;
+}
+.scroll_tab_left_button::after {
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 12px 12px 12px 0;
+border-color: transparent #fff;
+display: block;
+width: 0;
+z-index: 1;
+right: 2px;
+top: 15px;
+background-color: transparent;
+}
+.scroll_tabs_container .scroll_tab_left_button_over {
+  background-color: #fff;
+
+}
+
+
+.scroll_tabs_container .scroll_tab_left_button_disabled::before {
+
+  display: none;
+  
+}
+.scroll_tabs_container .scroll_tab_left_button_disabled::after {
+
+  display: none;
+  
+}
+.scroll_tabs_container .scroll_tab_right_button::before {
+  content: '';
+position: absolute;
+border-style: solid;
+border-width: 20px 0 20px 20px;
+border-color: transparent #d9d9d9;
+display: block;
+width: 0;
+z-index: 1;
+background-color: transparent;
+top: 7px;
+  left: 2px;
+  
+}
+.scroll_tabs_container .scroll_tab_right_button::after {
+  content: '';
+position: absolute;
+border-style: solid;
+border-width: 12px 0 12px 12px;
+border-color: transparent #fff;
+display: block;
+width: 0;
+z-index: 1;
+background-color: transparent;
+top: 15px;
+  left: 2px;
+  
+}
+
